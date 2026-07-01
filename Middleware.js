@@ -1,7 +1,7 @@
 const {companySchema,productSchema  , entrySchema  
     ,  workerSchema   , workerEntrySchema , assemblerSchema,
     componentSchema,   typeSchema , assemblerEntrySchema,
-    userSchema} = require("./Schema");
+    userSchema} = require("./schema");
 
 const ExpressError = require("./utils/ExpressError");
 
