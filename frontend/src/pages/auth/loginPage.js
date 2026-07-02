@@ -38,7 +38,7 @@ export default async function LoginPage() {
                 return;
             } 
             const response = await loginUser({username,password});   
-            navigate("#/dashboard", true);
+            navigate("#/dashboard");
             showToast(response?.message  ) 
         }catch(err){  
             console.log(err.response)

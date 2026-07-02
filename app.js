@@ -3,6 +3,7 @@ if (process.env.NODE_ENV != "production") {
 } 
 const express = require("express");
 const app = express();
+app.set("trust proxy", 1);
 const port = process.env.PORT || 8080;
 const path = require("path");
 const mongoose = require("mongoose");
@@ -59,7 +60,7 @@ const sessionOption = {
     store,
     secret: process.env.SECRET,
     resave:false ,
-    saveUninitialized:true ,
+    saveUninitialized:false ,
     cookie : {
         secure: process.env.NODE_ENV === "production",
         sameSite: "lax",

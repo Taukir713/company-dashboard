@@ -7,8 +7,7 @@ export function registerRoute(path,callback) {
 
 export function navigate(path,replaceState) {
     if(replaceState) {
-        window.location.replace(path);
-        return
+        window.location.replace(path); 
     } 
     window.location.hash = path; 
 }
