@@ -73,9 +73,6 @@ app.use(express.static(path.join(__dirname, "frontend")));
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(session(sessionOption))
-app.use(cors({ 
-    credentials:true
-}))
 
 app.use(passport.initialize());
 app.use(passport.session());
