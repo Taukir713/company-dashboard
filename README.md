@@ -9,6 +9,7 @@ It replaces spreadsheet-based operations with a centralized system for managing 
 [![Express](https://img.shields.io/badge/Express-v5-000000?style=flat&logo=express)](https://expressjs.com/) 
 [![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=flat&logo=mongodb)](https://www.mongodb.com/) 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+[![Passport.js](https://img.shields.io/badge/Passport.js-Authentication-34E27A?style=flat)](https://www.passportjs.org/)
 [![Responsive](https://img.shields.io/badge/Responsive-Yes-success)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design) 
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
