@@ -1,5 +1,5 @@
 
-# 🏭 Company Dashboard
+# 🏭 Business Management Dashboard
 
 **A business management dashboard built for manufacturing workflows using Node.js, Express.js, MongoDB and Vanilla JavaScript.**
 
