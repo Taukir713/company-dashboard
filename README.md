@@ -32,6 +32,8 @@ It replaces spreadsheet-based operations with a centralized system for managing 
 
 # 📖 Why this project?
 
+The idea for this project came from observing the day-to-day workflow of a small manufacturing business where production records were managed manually.
+
 Many small manufacturing businesses still rely on Excel sheets or paper records to track production. As the business grows, data becomes difficult to manage, reports take time to generate and controlling user permissions becomes challenging.
 
 This project was built to solve those problems by providing a single dashboard where different roles can securely manage daily production data and generate reports.
