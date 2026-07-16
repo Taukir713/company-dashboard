@@ -13,9 +13,7 @@ const session = require("express-session");
 const {MongoStore ,createWebCryptoAdapter}   = require('connect-mongo');
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
-const User = require("./model/user"); 
-const cors = require("cors");
-
+const User = require("./model/user");  
  
 const companyRouter = require("./routes/company");
 const productRouter = require("./routes/product");
